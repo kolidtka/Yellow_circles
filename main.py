@@ -50,7 +50,7 @@ class MainWindow(QWidget):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     mainWindow = MainWindow()
-    mainWindow.setWindowTitle('Circle Drawer')
+    mainWindow.setWindowTitle('Рисователь кружочков')
     mainWindow.resize(400, 400)
     mainWindow.show()
     sys.exit(app.exec())
